@@ -8,6 +8,10 @@ public class Main {
 		Scanner str = new Scanner(System.in);
 		String name;
 		name = str.nextLine();
-		System.out.print("My name is " + name);
+		System.out.println("Please enter your age: ");
+		Integer age;
+		age = str.nextInt();
+		System.out.println("My name is " + name + ", and I am " + age + " years old");
     }
+
 }
